@@ -1,0 +1,37 @@
+{
+  "name": "@crapthings/zit-cli",
+  "version": "0.1.0",
+  "description": "Generate images from the command line with WaveSpeedAI Z-Image-Turbo.",
+  "type": "commonjs",
+  "bin": {
+    "zit": "./bin/zit.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "assets",
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "wavespeed",
+    "z-image",
+    "image-generation",
+    "cli",
+    "ai-image",
+    "text-to-image"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "wavespeed": "^0.2.3"
+  }
+}

@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      wavespeed:
+        specifier: ^0.2.3
+        version: 0.2.3
+
+packages:
+
+  wavespeed@0.2.3:
+    resolution: {integrity: sha512-rj+9Qvklx4KzovSGQ17oF6MznmZqujdoXi1ralSIRvKrWLKyicArL9rkFFZl1F5uEHgQCFOCSUF7cPG2pJEnnA==}
+
+snapshots:
+
+  wavespeed@0.2.3: {}
