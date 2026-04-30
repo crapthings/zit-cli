@@ -2,14 +2,15 @@
 
 ![zit-cli mascot banner](assets/zit-cli-cover.png)
 
-A small Node.js CLI for generating images with WaveSpeedAI's `wavespeed-ai/z-image/turbo` model.
+A small Node.js CLI for generating affordable web and project images with WaveSpeedAI's `wavespeed-ai/z-image/turbo` model.
 
-`zit` is designed for quick terminal workflows: write a prompt, choose a common aspect ratio, and optionally download the generated image to a local file or directory.
+`zit` intentionally focuses on one fast, low-cost model that works well for website illustrations, README banners, blog covers, placeholder artwork, and product mockups. Write a prompt, choose a common aspect ratio, and optionally download the generated image to a local file or directory.
 
 ## Features
 
-- Uses WaveSpeedAI `wavespeed-ai/z-image/turbo`
+- Uses the affordable WaveSpeedAI `wavespeed-ai/z-image/turbo` model
 - Supports text-to-image and image-guided generation
+- Works well for web illustrations, repo banners, blog covers, placeholders, and quick visual drafts
 - Common aspect ratios with automatic max-side sizing
 - Maximum generated width or height is `1536`
 - Optional local file upload for reference images
