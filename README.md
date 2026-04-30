@@ -103,6 +103,19 @@ Use `--json` when you want to pipe the result into another script:
 zit "product photo, white background" --json
 ```
 
+## Codex Skill
+
+This repo includes a Codex skill that teaches agents how to use `zit` for image generation, repo banners, mascot assets, parameter selection, and result verification.
+
+Install the skill locally:
+
+```bash
+mkdir -p ~/.agents/skills/zit-cli
+cp skills/zit-cli/SKILL.md ~/.agents/skills/zit-cli/SKILL.md
+```
+
+After installing, restart or refresh your agent session so the new skill appears in the available skills list.
+
 ## Aspect Ratios
 
 `zit` caps generated images at a maximum width or height of `1536`.
