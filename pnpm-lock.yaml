@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       wavespeed:
-        specifier: ^0.2.3
-        version: 0.2.3
+        specifier: ^0.3.2
+        version: 0.3.2
 
 packages:
 
-  wavespeed@0.2.3:
-    resolution: {integrity: sha512-rj+9Qvklx4KzovSGQ17oF6MznmZqujdoXi1ralSIRvKrWLKyicArL9rkFFZl1F5uEHgQCFOCSUF7cPG2pJEnnA==}
+  wavespeed@0.3.2:
+    resolution: {integrity: sha512-BEwWsHHLclrBT9eHhSTptTg9qRGMdJHZOBL1Ckz6JHtVerQknOHyDeckozssBUeSCaqVqOwgZITXkoNi90VHEg==}
 
 snapshots:
 
-  wavespeed@0.2.3: {}
+  wavespeed@0.3.2: {}
