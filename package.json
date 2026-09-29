@@ -1,7 +1,15 @@
 {
   "name": "@crapthings/zit-cli",
   "version": "0.1.1",
-  "description": "Generate images from the command line with WaveSpeedAI Z-Image-Turbo.",
+  "description": "Generate fast, affordable project images from the terminal with WaveSpeed Z-Image-Turbo.",
+  "homepage": "https://crapthings.github.io/zit-cli/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crapthings/zit-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crapthings/zit-cli/issues"
+  },
   "type": "commonjs",
   "bin": {
     "zit": "bin/zit.js"
@@ -25,8 +33,12 @@
   "keywords": [
     "wavespeed",
     "z-image",
+    "z-image-turbo",
     "image-generation",
+    "image-to-image",
     "cli",
+    "command-line",
+    "developer-tools",
     "ai-image",
     "text-to-image"
   ],
